@@ -1,0 +1,117 @@
+/* reseteo CSS y fuentes */
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fondo de las paginas */
+body {
+  background-image: url("../assets/img/Fondo.jpg");
+  background-color: #cccccc;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* barra navegador superior */
+.barra_nav {
+  background-color: #14213D;
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  box-shadow: 20x 5px 5px #E5E5E5;
+  font-family: 'Roboto';
+}
+
+.barra_nav .logo {
+  font-family: 'Roboto';
+  color: #E5E5E5;
+}
+
+.barra_nav ul {
+  float: right;
+  font-size: 14px;
+  list-style: none;
+}
+
+.barra_nav ul li {
+  padding-right: 15px;
+  margin-right: 15px;
+}
+
+.barra_nav ul li a {
+  font-family: 'Roboto';
+  font-style: normal;
+  width: 150px;
+  left: 866px;
+  top: 29px;
+  color: #000000;
+  background: #FCA311;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.barra_nav ul li a:hover {
+  background-color: #E5E5E5;
+  color: black;
+  font-weight: 300;
+  border-radius: 10px;
+}
+
+/* animaciones */
+.animacion {
+  animation-duration: 3s;
+  animation-name: opacidad;
+}
+
+/* Imagenes */
+.img-superpuesta {
+  margin-left: 5vh;
+  margin-top: 20vh;
+}
+
+/* Cajas servicios y trabajos */
+.caja {
+  background-color: #FCA311;
+  color: #14213D;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #14213D;
+  padding: 20px;
+  min-width: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* footer */
+.barra_foot {
+  position: fixed;
+  bottom: 0;
+  background-color: #14213D;
+  color: #E5E5E5;
+}
+
+.barra_foot a i {
+  color: #FCA311;
+}
+
+.barra_foot a i:hover {
+  color: #E5E5E5;
+}
+
+@keyframes opacidad {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
