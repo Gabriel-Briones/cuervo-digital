@@ -87,6 +87,7 @@ body {
   padding: 20px;
   min-width: 200px;
   margin: 10px;
+  border-radius: 10px;
   display: inline-block;
   transition: 0.3s
 }
@@ -97,8 +98,6 @@ body {
 
 /* footer */
 .barra_foot {
-  position: fixed;
-  bottom: 0;
   background-color: #14213D;
   color: #E5E5E5;
 }
